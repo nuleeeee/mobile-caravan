@@ -1,0 +1,67 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #FFFFFF;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.login-container {
+    max-width: 130%;
+    width: 500px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 -15% 30%;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+    border-style: outset;
+}
+
+.loginBtn {
+    --bs-btn-bg: #f15811;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-border-color: #f15811;
+    --bs-btn-hover-bg: #923d16;
+    --bs-btn-hover-border-color: #923d16;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-active-bg: #923d16;
+    --bs-btn-active-border-color: #923d16;
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.text-jaba {
+  font-size: 120px;
+  font-family: Impact;
+  letter-spacing: 10px;
+  -webkit-text-stroke: 3px rgb(17, 80, 22);
+  color: #f15811;
+}
+
+.text-mobile-caravan {
+  font-size: 20px;
+  font-family: Impact;
+  letter-spacing: 10px;
+  -webkit-text-stroke: 0.5px rgb(17, 80, 22);
+  color: #f15811;
+}

@@ -1,0 +1,132 @@
+/*************************** THIS IS THE START FOR THE GENERAL CSS **************************************/
+
+body {
+    font-family: Trebuchet MS, monotype coursiva, courier;
+    /* background: #e2e2e2; */
+    background: #FFFFFF;
+}
+
+.custom-btn {
+    --bs-btn-bg: #f15811;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-border-color: #f15811;
+    --bs-btn-hover-bg: #923d16;
+    --bs-btn-hover-border-color: #923d16;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-active-bg: #923d16;
+    --bs-btn-active-border-color: #923d16;
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+}
+
+.green-btn {
+    --bs-btn-bg: #185a12;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-border-color: #185a12;
+    --bs-btn-hover-bg: #0f350c;
+    --bs-btn-hover-border-color: #0f350c;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-active-bg: #0f350c;
+    --bs-btn-active-border-color: #0f350c;
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+}
+
+.btn-xsm {
+    --bs-btn-padding-y: .25rem;
+    --bs-btn-padding-x: .5rem;
+    --bs-btn-font-size: .75rem;
+}
+
+.colored-bg-card-header {
+    background-color: #434EA0;
+    color: white;
+    font-weight: 600;
+}
+
+.bordered-card {
+    border: 2px solid #434EA0;
+    height: 100%;
+}
+
+.pointer {
+    cursor: pointer !important;
+}
+
+/**************************** THIS IS THE end FOR THE GENERAL CSS **************************************/
+
+
+
+
+
+
+
+/**************************** THIS IS THE START FOR THE INDEX PAGE **************************************/
+.menu-button {
+    border: none;
+    color: #f15811;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.menu-button:hover {
+    background-color: rgba(52, 95, 17, 0.5);
+    color: #185a12;
+}
+
+.clicked {
+    border-bottom: 5px solid #185a12;
+    color: #185a12;
+    transition: border-bottom 0.5 ease;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: box-shadow 0.6s ease;
+}
+
+.navbar.scrolled {
+    box-shadow: 0 2px 5px rgba(67, 78, 160, 0.5);
+}
+
+.thead-dark {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 766px) {
+    .navbar {
+        justify-content: flex-start;
+    }
+
+    .menu-button {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 1028px) {
+    .menu-button {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        width: 100% !important;
+    }
+}
+
+.filter-option-inner-inner {
+    text-align: center;
+}
+/**************************** THIS IS THE END FOR THE INDEX PAGE **************************************/
